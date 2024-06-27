@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: preparation
-        run: echo "preparing the table ..."  
+        run: echo "prepare the table ..."  
 
       - name: checks out the repository
         uses: actions/checkout@v4
